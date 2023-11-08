@@ -17,11 +17,13 @@ body {
 h1 {
     margin-bottom: 0%;
     word-spacing: 5px;
+    font-size: 6rem;
 }
 
 header p {
     letter-spacing: 15px;
     margin-top: 33%vh;
+    font-size: 2rem;
 }
 
 /* add nav css to right */
@@ -42,7 +44,7 @@ ul li {
     border-left: 1px solid black;
     padding-left: 15px;
     margin-left: 20px;
+    font-size: 1em;
 }
 
-/* add vertical separaters to li */
 /* w/h/bradius to img */
