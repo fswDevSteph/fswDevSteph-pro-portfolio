@@ -10,7 +10,7 @@ header {
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 25px;
+    margin: 250px;
 }
 
 /* fix spacing between header and p */
@@ -48,3 +48,16 @@ ul li {
 }
 
 /* w/h/bradius to img */
+.profile-img {
+    display: flex;
+    align-items: center;
+    float: right;
+
+    height: auto;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.introSection {
+    margin-top: 10rem;
+}
