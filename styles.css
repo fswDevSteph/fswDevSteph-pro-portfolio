@@ -1,3 +1,8 @@
+:root {
+    --mainblack: #1b1b1b;
+    --mainWhite: #fffff0;
+}
+
 header {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -27,6 +32,10 @@ header p {
 }
 
 /* add nav css to right */
+a {
+    color: var(--mainblack);
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -60,4 +69,12 @@ ul li {
 
 .introSection {
     margin-top: 10rem;
+
+
+}
+
+.workSectionContainer {
+    margin-top: 20rem;
+
+
 }
