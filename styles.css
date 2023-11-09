@@ -1,6 +1,7 @@
 :root {
     --mainblack: #1b1b1b;
     --mainWhite: #fffff0;
+    --mainRed: #850101;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 250px;
+    margin: 175px;
 }
 
 /* fix spacing between header and p */
@@ -34,6 +35,17 @@ header p {
 /* add nav css to right */
 a {
     color: var(--mainblack);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--mainRed);
+    transition: 1s;
+    font-size: 1.5em;
+}
+
+a:visited {
+    color: var(--mainRed);
 }
 
 nav {
@@ -61,7 +73,6 @@ ul li {
     display: flex;
     align-items: center;
     float: right;
-
     height: auto;
     width: 350px;
     border-radius: 50%;
