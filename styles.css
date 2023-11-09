@@ -16,7 +16,7 @@ header {
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 175px;
+    margin: 155px;
 }
 
 /* fix spacing between header and p */
@@ -80,11 +80,30 @@ ul li {
 
 .introSection {
     margin-top: 10rem;
+}
 
+.workSectionHeading {
+    border-bottom: 2px solid var(--mainblack);
+}
 
+.workSectionHeading>h2 {
+    margin-top: 2px;
+    ;
 }
 
 .workSectionContainer {
-    margin-top: 20rem;
+    margin-top: 15rem;
 
+}
+
+
+.workCard {
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+workcard.img {
+    width: 100%;
+    height: auto;
 }
