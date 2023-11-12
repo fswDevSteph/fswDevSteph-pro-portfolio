@@ -101,31 +101,5 @@ ul li {
 }
 
 .workSectionContainer {
-    margin-top: 15rem;
-
-}
-
-.workContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
-.workCard {
-    justify-content: center;
-    align-items: center;
-    flex: 1 0 33;
-    max-width: 30%;
-    background-color: var(--mainblack);
-}
-
-workcard.img {
-    width: 6.25rem;
-    height: 6.25rem;
-}
-
-.workCar.img.special {
-    width: 6.25rem;
-    height: 6.25rem;
+    margin-top: 40rem;
 }
