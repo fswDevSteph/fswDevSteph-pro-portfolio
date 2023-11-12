@@ -4,6 +4,12 @@
     --mainRed: #850101;
 }
 
+/* * {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+} */
+
 header {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -16,18 +22,19 @@ header {
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 9.6875rem;
+
+
 }
 
 /* fix spacing between header and p */
 h1 {
     margin-bottom: 0%;
-    word-spacing: 5rem;
+    word-spacing: 3rem;
     font-size: 7rem;
 }
 
 header p {
-    letter-spacing: 5rem;
+    letter-spacing: 3rem;
     margin-top: 33%vh;
     font-size: 3rem;
 }
@@ -88,18 +95,4 @@ ul li {
 .introSection~h2 {
     font-size: 1rem;
 
-}
-
-.workSectionHeading {
-    border-bottom: 2px solid var(--mainblack);
-    font-size: 5rem;
-}
-
-.workSectionHeading>h2 {
-    margin-top: 2rem;
-
-}
-
-.workSectionContainer {
-    margin-top: 40rem;
 }
