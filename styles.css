@@ -16,20 +16,20 @@ header {
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 155px;
+    margin: 9.6875rem;
 }
 
 /* fix spacing between header and p */
 h1 {
     margin-bottom: 0%;
-    word-spacing: 5px;
-    font-size: 6rem;
+    word-spacing: 5rem;
+    font-size: 7rem;
 }
 
 header p {
-    letter-spacing: 15px;
+    letter-spacing: 5rem;
     margin-top: 33%vh;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /* add nav css to right */
@@ -63,9 +63,9 @@ ul {
 
 ul li {
     border-left: 1px solid black;
-    padding-left: 15px;
-    margin-left: 20px;
-    font-size: 1em;
+    padding-left: 1rem;
+    margin-left: 5rem;
+    font-size: 3rem;
 }
 
 /* w/h/bradius to img */
@@ -73,22 +73,31 @@ ul li {
     display: flex;
     align-items: center;
     float: right;
-    height: auto;
-    width: 350px;
+    height: 65rem;
+    width: 45rem;
     border-radius: 50%;
+    border: .16rem solid var(--mainblack);
+
 }
 
 .introSection {
     margin-top: 10rem;
+    font-size: 3rem;
+}
+
+.introSection~h2 {
+    font-size: 1rem;
+
 }
 
 .workSectionHeading {
     border-bottom: 2px solid var(--mainblack);
+    font-size: 5rem;
 }
 
 .workSectionHeading>h2 {
-    margin-top: 2px;
-    ;
+    margin-top: 2rem;
+
 }
 
 .workSectionContainer {
@@ -96,14 +105,27 @@ ul li {
 
 }
 
-
-.workCard {
-    justify-content: center;
-    align-items: flex-start;
+.workContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
+.workCard {
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 33;
+    max-width: 30%;
+    background-color: var(--mainblack);
+}
+
 workcard.img {
-    width: 100%;
-    height: auto;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.workCar.img.special {
+    width: 6.25rem;
+    height: 6.25rem;
 }
