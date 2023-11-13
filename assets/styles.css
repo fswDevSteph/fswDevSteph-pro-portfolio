@@ -1,7 +1,8 @@
 :root {
     --mainblack: #1b1b1b;
     --mainWhite: #fffff0;
-    --mainRed: #850101;
+    --mainLPurple: #B45997;
+    --mainDPurple: #86157B;
 }
 
 /* * {
@@ -47,13 +48,13 @@ a {
 }
 
 a:hover {
-    color: var(--mainRed);
+    color: var(--mainLPurple);
     transition: 1s;
     font-size: 1.5em;
 }
 
 a:visited {
-    color: var(--mainRed);
+    color: var(--mainDPurple);
 }
 
 nav {
@@ -110,19 +111,28 @@ img {
 /* parent */
 .card-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 
     flex: 1 1 30%;
 }
 
 #firstCard {
+    max-width: 100% !important;
+    height: auto;
 
+}
+
+#firstCard img {
+    width: 100%;
+}
+
+#firstCard img {
     max-width: 100% !important;
 }
 
 .card-container .card img {
-    max-width: 500px;
+    max-width: 300rem;
     max-height: 100%;
     display: flex;
     align-items: center;
@@ -155,6 +165,7 @@ img {
 h2 .cardTitle {
     display: flex;
     flex-direction: column;
+    ;
 }
 
 /* card paragraph */
