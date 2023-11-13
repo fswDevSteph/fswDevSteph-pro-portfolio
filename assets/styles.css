@@ -113,11 +113,11 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-    flex: 1 1 30%;
+    width: 100% flex: 1 1 30%;
 }
 
 #firstCard {
+    margin-bottom: 5rem;
     max-width: 100% !important;
     height: auto;
 
@@ -160,12 +160,13 @@ img {
     border-radius: 2px;
     max-height: auto;
     max-width: 30%;
+
 }
 
 h2 .cardTitle {
     display: flex;
     flex-direction: column;
-    ;
+
 }
 
 /* card paragraph */
