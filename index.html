@@ -21,20 +21,16 @@
         <p>Professional Portfolio</p>
     </header>
     <!-- nav with About Work Contact Resume-->
-    <!--HR top-->
-    <hr>
     <nav>
         <ul class="navBar">
             <li><a href="#introSection">About</a></li>
             <li><a href="#workSectionContainer">Work</a></li>
-            <li>Contact</li>
-            <li>Resume</li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Resume</a></li>
         </ul>
     </nav>
-    <hr>
-    <!--HR bottom-->
 
-    <!--/Header Section-->
+
     <!--Intro section-->
     <section class="introSection" id="introSection">
         <!--circle img-->
@@ -59,22 +55,45 @@
             </p>
         </div>
     </section>
-    <section>
+    <section id="workSectionContainer">
+        <h2 class="work">Work</h2>
         <!--card 1-->
+
         <div class="card-container">
             <div class="card">
-                <h2>Heading</h2>
-                <a><img src="#" alt="placeholder text"></a>
-                <p>Text about my project</p>
+                <h2 class="cardTitle">Code Refactor</h2>
+                <a href="https://github.com/fswDevSteph/marketing-site-code-refactor" target=_blank>
+                    <img src="./assets/code-refactor.png" alt="code refactor project" class="imgType2">
+                </a>
+                <p>This project was about code refactoring. I changed the heading tags so they were in logical sequence
+                    and added semantic html so the page was usable with assitive technology.</p>
             </div>
         </div>
+        <!--card original 1 
+        <div class="card-container">
+            <div class="card">
+                <h2 class="cardTitle">Code Refactor</h2>
+                <div class="cardType1">
+                    <a href="https://github.com/fswDevSteph/marketing-site-code-refactor"><img
+                            src="./assets/Screenshot 2023-11-12 at 2.23.48 PM.png" alt="code refactor project"
+                            target="_blank"></a>
+                </div>
+                <p>This project was about code refactoring. I changed the heading tags so they were in logical sequence
+                    and added semantic html so the page was usable with assitive technology.</p>
+            </div>
+        </div>
+        -->
+
+
+
 
         <!--card 2-->
         <div class="card-container">
             <div class="card">
-                <h2>Heading</h2>
-                <a><img src="#" alt="placeholder text"></a>
-                <p>Text about my project</p>
+                <h2 class="cardTitle">CSS Cheat Sheet</h2>
+                <a href="https://github.com/fswDevSteph/css-cheat-sheet" target=_blank>
+                    <img src="./assets/Screenshot 2023-11-13 at 1.15.53 AM.png" alt="CSS code cheat sheet "></a>
+                <p>The CSS cheat sheet is a quick tool to remember all of your fav CSS snippets!</p>
             </div>
         </div>
 
@@ -82,7 +101,7 @@
         <div class="card-container">
             <div class="card">
                 <h2>Heading</h2>
-                <a><img src="#" alt="placeholder text"></a>
+                <a href="#" target=_blank><img src="#" alt="placeholder text"></a>
                 <p>Text about my project</p>
             </div>
         </div>
@@ -90,7 +109,7 @@
 
 
 
-    <footer>
+    <footer id="contact">
         <h2>Contact Me</h2>
         <ul>
             <li><a href="tel:6116116111">611.611.6111</a></li>
