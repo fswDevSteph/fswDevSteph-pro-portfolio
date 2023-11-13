@@ -10,7 +10,13 @@ This includes projects I've completed as well as place holder cards to home futu
 2. Resume edits
 3. "About me" section updates
 
-## Follow this link https://youtu.be/atIgqUd4Eeo to see a brief clip of what the first iteration of my Professional Portfolio looks like!
+## Image of Portfolio
+
+# <img src="assets/sp-portfolio.png">
+
+## Video Sample of Portfolio Nov 13 2023
+
+Follow this link https://youtu.be/atIgqUd4Eeo to see a brief clip of what the first iteration of my Professional Portfolio looks like!
 
 ## Here is the live link: https://fswdevsteph.github.io/stephanie-perroni-pro-portfolio/ to an external site.
 
@@ -29,3 +35,5 @@ N/A
 ## About Developer
 
 As someone with Multiple Sclerosis, the cognitive issues I face and overcome on a daily basis can really hinder my progress but where there is a will there is a way! From vegetable (at one point ) to victor, if you're a fan of my project project and would like to help efforts on this journey, you can make a donation here: www.thisisafakelinkthatgoesnowhere.com
+
+[def]: sp-portfolio.png
