@@ -12,7 +12,7 @@ This includes projects I've completed as well as place holder cards to home futu
 
 ## Follow this link https://youtu.be/atIgqUd4Eeo to see a brief clip of what the first iteration of my Professional Portfolio looks like!
 
-## Here is the live link: **\*\***\_\_**\*\*** to an external site.
+## Here is the live link: https://fswdevsteph.github.io/stephanie-perroni-pro-portfolio/ to an external site.
 
 ## Instalation instructions
 
