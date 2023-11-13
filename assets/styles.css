@@ -112,15 +112,21 @@ img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 200rem;
-    max-height: 100rem;
+
     flex: 1 1 30%;
+}
+
+#firstCard {
+
+    max-width: 100% !important;
 }
 
 .card-container .card img {
     max-width: 500px;
-
     max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*card*/
@@ -135,16 +141,15 @@ img {
 } */
 .card {
     display: flex;
+    flex: 1 1 30%;
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 2em;
-    margin-right: 2em;
+    margin: 2rem 2rem;
     box-shadow: 5px 5px 10px 10px grey;
     border-radius: 2px;
     max-height: auto;
     max-width: 30%;
-
-    flex: 1 0 30%
 }
 
 h2 .cardTitle {
