@@ -10,8 +10,6 @@ This includes projects I've completed as well as place holder cards to home futu
 2. Resume edits
 3. "About me" section updates
 
-## Image of project
-
 ## Follow this link https://youtu.be/atIgqUd4Eeo to see a brief clip of what the first iteration of my Professional Portfolio looks like!
 
 ## Here is the live link: **\*\***\_\_**\*\*** to an external site.
