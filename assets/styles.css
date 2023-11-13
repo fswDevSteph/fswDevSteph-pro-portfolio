@@ -155,18 +155,22 @@ img {
     flex: 1 1 30%;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 2em;
+    margin-top: 1em;
     margin: 2rem 2rem;
     box-shadow: 5px 5px 10px 10px grey;
     border-radius: 2px;
     max-height: 100%;
     max-width: 30%;
+    width: 300px;
+    ;
 
 }
 
 h2 .cardTitle {
     display: flex;
     flex-direction: column;
+    width: 100%;
+
 
 }
 
@@ -191,7 +195,7 @@ h2 .cardTitle {
     display: flex;
     flex-direction: column;
     font-size: 3rem;
-    margin: 0 auto;
+
 }
 
 
